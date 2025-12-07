@@ -40,9 +40,9 @@ def calculate (numbers):
     # Method 2: Using .tolist() to convert numpy arrays to lists
     #========================================================
     calculations = {
-        'mean': [matrix.mean(axis=0).tolist(),  # mean لكل عمود
-                 matrix.mean(axis=1).tolist(),  # mean لكل صف
-                 matrix.mean().tolist()],       # mean لكل العناصر
+        'mean': [matrix.mean(axis=0).tolist(), 
+                 matrix.mean(axis=1).tolist(), 
+                 matrix.mean().tolist()],
         'variance': [matrix.var(axis=0).tolist(),
                      matrix.var(axis=1).tolist(),
                      matrix.var().tolist()],
